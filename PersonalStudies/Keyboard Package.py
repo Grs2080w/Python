@@ -25,13 +25,10 @@ while True:
     if kb.is_pressed('g' and 'a' and 'b' and 'r' and 'i' and 'e' and 'l'):
         p = pyautogui.position()
         pyautogui.click(p)
-<<<<<<< HEAD
         kb.write('Messi is cool')
         print('Function Done')
-=======
         kb.write('Gabriel é demais')
         print('Funçao cumprida')
->>>>>>> 798be9dab85857439448a40f08b8d807c539caf1
         break
 
 

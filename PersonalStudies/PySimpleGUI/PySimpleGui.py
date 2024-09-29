@@ -1,12 +1,11 @@
 from PySimpleGUI import PySimpleGUI as sg
-from myThings import manipText
-from myThings.manipText import *
+from PersonalStudies.myThings.manipText import *
 
 loginex = arquivoExiste('Logins.txt')
 senhaex = arquivoExiste('Senhas.txt')
 if not loginex or  not senhaex:
-    manipText.criarArq('Logins.txt')
-    manipText.criarArq('Senhas.txt')
+    criarArq('Logins.txt')
+    criarArq('Senhas.txt')
 
 
 loginsdad = open('Logins.txt', 'r')
