@@ -1,6 +1,6 @@
 import keyboard as kb
 import pyautogui
-import time
+
 
 # Principais comandos Keyboard package
 
